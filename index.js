@@ -39,7 +39,7 @@ function randomAdjust(x){
 function adjustTeacherNum(){
     iframe = document.getElementById('iframeautoheight');
     selects = iframe.contentDocument.querySelectorAll('table.datelist>tbody>tr>td>select');
-    if (selects[2].getAttribute('id').search('JS3')>0){
+    if (selects[2].getAttribute('id').search('js3')>0){
         var JS1 = new Array();
         var JS2 = new Array();
         var JS3 = new Array();
@@ -50,7 +50,7 @@ function adjustTeacherNum(){
             else if (selects[i].getAttribute('id').search('JS2')>0){
                 JS2.push(selects[i]);
             }
-            else if (selects[i].getAttribute('id').search('JS3')>0){
+            else if (selects[i].getAttribute('id').search('js3')>0){
                 JS3.push(selects[i]);
             }
         }
